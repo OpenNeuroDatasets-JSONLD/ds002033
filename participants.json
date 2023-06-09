@@ -1,11 +1,23 @@
 {
   "participant_id": {
     "LongName": "participant_id",
-    "Description": "participant id"
+    "Description": "participant id",
+    "Annotations": {
+      "IsAbout": {
+        "TermURL": "nb:ParticipantID",
+        "Label": ""
+      }
+    }
   },
   "age": {
     "LongName": "age",
-    "Description": "age of participant"
+    "Description": "age of participant",
+    "Annotations": {
+      "IsAbout": {
+        "TermURL": "nb:Age",
+        "Label": ""
+      }
+    }
   },
   "sex": {
     "LongName": "sex",
@@ -13,6 +25,22 @@
     "Levels": {
       "M": "male",
       "F": "female"
+    },
+    "Annotations": {
+      "IsAbout": {
+        "TermURL": "nb:Sex",
+        "Label": ""
+      },
+      "Levels": {
+        "F": {
+          "TermURL": "snomed:248152002",
+          "Label": ""
+        },
+        "M": {
+          "TermURL": "snomed:248153007",
+          "Label": ""
+        }
+      }
     }
   },
   "handedness": {
